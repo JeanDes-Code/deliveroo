@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "deliveroo",
+    "name": "Deliveroo-Clone",
     "slug": "deliveroo",
+    "description": "Cette application a été développé par Jean Desauw et utilise ReactNative, Redux, SanityStudio et TailwindCSS pour reproduire l'application Deliveroo.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ico.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ico.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
