@@ -63,8 +63,8 @@ const DeliveryScreen = () => {
       </SafeAreaView>
       <MapView
         initialRegion={{
-          latitude: 43.47664,
-          longitude: -1.51346,
+          latitude: restaurant.lat,
+          longitude: restaurant.long,
           latitudeDelta: 0.005,
           longitudeDelta: 0.005,
         }}
@@ -73,8 +73,8 @@ const DeliveryScreen = () => {
       >
         <Marker
           coordinate={{
-            latitude: 43.47664,
-            longitude: -1.51346,
+            latitude: restaurant.lat,
+            longitude: restaurant.long,
           }}
           title={restaurant.title}
           description={restaurant.short_description}
